@@ -26,7 +26,7 @@
 <meta property="og:description" content="YModem1.起始帧的数据格式YModem的起始帧并不直接传输文件的数据，而是将文件名与文件的大小放在数据帧中传输，帧长 &#x3D; 3字节数据首部 + 128字节数据 + 2字节（CRC16校验码）&#x3D; 133字节。数据结构如下：SOH 00 FF filename filezise NUL CRCH CRCLSOH&#x3D;0x01，表示这个数据帧中包含着128个字节的数据（ST">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-07-26T15:29:44.690Z">
-<meta property="article:modified_time" content="2022-07-26T15:32:42.381Z">
+<meta property="article:modified_time" content="2022-07-27T13:30:14.768Z">
 <meta property="article:author" content="Lee-Long">
 <meta property="article:tag" content="协议">
 <meta name="twitter:card" content="summary">
@@ -303,7 +303,7 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-YModem" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="data-YModem" class="article article-type-data" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
