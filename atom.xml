@@ -6,7 +6,7 @@
   <link href="https://longlee1214.github.io/atom.xml" rel="self"/>
   
   <link href="https://longlee1214.github.io/"/>
-  <updated>2023-03-25T09:57:30.141Z</updated>
+  <updated>2022-12-17T13:23:33.576Z</updated>
   <id>https://longlee1214.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ymodem协议详解</title>
+    <link href="https://longlee1214.github.io/2023/03/26/YModem/"/>
+    <id>https://longlee1214.github.io/2023/03/26/YModem/</id>
+    <published>2023-03-25T16:36:27.883Z</published>
+    <updated>2022-12-17T13:23:33.576Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="协议" scheme="https://longlee1214.github.io/categories/%E5%8D%8F%E8%AE%AE/"/>
+    
+    
+    <category term="协议" scheme="https://longlee1214.github.io/tags/%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo发布带图片博客</title>
+    <link href="https://longlee1214.github.io/2023/03/26/hexo%E5%8F%91%E5%B8%83%E5%B8%A6%E5%9B%BE%E7%89%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://longlee1214.github.io/2023/03/26/hexo%E5%8F%91%E5%B8%83%E5%B8%A6%E5%9B%BE%E7%89%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2023-03-25T16:36:27.878Z</published>
+    <updated>2022-12-17T15:21:06.500Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://longlee1214.github.io/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://longlee1214.github.io/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
