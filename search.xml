@@ -66,4 +66,41 @@
         <tag>hexo</tag>
       </tags>
   </entry>
+  <entry>
+    <title></title>
+    <url>/2023/03/26/Hello-word/</url>
+    <content><![CDATA[<hr>
+<p>title: 我的第一篇博客<br>date: 2021-01-11 19:50:43<br>tags: 博客搭建<br>​—</p>
+<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>测试博客搭建</p>
+<h2 id="测试1"><a href="#测试1" class="headerlink" title="测试1"></a>测试1</h2>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/03/26/py/</url>
+    <content><![CDATA[<p>py是python文件缩写，有些新用户不知道Windows系统怎么运行py文件，接下来小编就给大家介绍一下具体的操作步骤。</p>
+<h2 id="具体如下："><a href="#具体如下：" class="headerlink" title="具体如下："></a>具体如下：</h2><ol>
+<li><p>\1. 首先第一步打开电脑浏览器，先搜索并下载python，接着根据下图所示，按照需求安装python。</p>
+<p><img src="https://bkqsimg.ikafan.com/uploada/8db0c6a7263348846a79619addee7b7f870e4530.jpg" alt="img"></p>
+</li>
+<li><p>\2. 第二步安装完成后，根据下图所示，按下【Win+R】快捷键打开【运行】窗口。</p>
+<p><img src="https://bkqsimg.ikafan.com/uploada/0da37be7340f6478a3b9940ffd3e21c2bad6b530.jpg" alt="img"></p>
+</li>
+<li><p>\3. 第三步根据下图所示，先在方框中输入【cmd】，接着点击【确定】选项。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/longlee1214/MyBlog_Pic@main/img/e4b5e2f5ee0d3ace1b4d58dd87e265e7350fbb30.jpg" alt="img"></p>
+</li>
+<li><p>\4. 第四步根据下图箭头所指，在命令行中输入【python + 空格】。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/longlee1214/MyBlog_Pic@main/img/f367139a310e179920b0900ec9406afec214a330.jpg" alt="img"></p>
+</li>
+<li><p>\5. 第五步根据下图箭头所指，将py文件拖动到cmd窗口。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/longlee1214/MyBlog_Pic@main/img/994f412043715fdbe8ba938c468920c5270f8c30.jpg" alt="img"></p>
+</li>
+<li><p>\6. 最后根据下图所示，按下【回车】键即可运行py文件。</p>
+</li>
+<li><p><img src="https://cdn.jsdelivr.net/gh/longlee1214/MyBlog_Pic@main/img/fb738d9c2cf7dfb28582e49ad01b1edef5dc1331.jpg" alt="img"></p>
+</li>
+<li><p>以上就是Windows系统怎么运行py文件的方法。</p>
+</li>
+</ol>
+]]></content>
+  </entry>
 </search>
