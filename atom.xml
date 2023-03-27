@@ -6,7 +6,7 @@
   <link href="https://longlee1214.github.io/atom.xml" rel="self"/>
   
   <link href="https://longlee1214.github.io/"/>
-  <updated>2023-03-26T15:44:18.188Z</updated>
+  <updated>2023-03-27T03:34:39.458Z</updated>
   <id>https://longlee1214.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>YModem协议详解</title>
+    <link href="https://longlee1214.github.io/2023/03/27/PicTest/"/>
+    <id>https://longlee1214.github.io/2023/03/27/PicTest/</id>
+    <published>2023-03-27T03:34:39.215Z</published>
+    <updated>2023-03-27T03:34:39.458Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="协议" scheme="https://longlee1214.github.io/categories/%E5%8D%8F%E8%AE%AE/"/>
+    
+    
+    <category term="协议" scheme="https://longlee1214.github.io/tags/%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
   
   <entry>
     <title></title>
