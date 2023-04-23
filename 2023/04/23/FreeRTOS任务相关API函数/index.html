@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>categories |  半亩方塘</title>
+      <title>FreeRTOS任务相关API函数 |  半亩方塘</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/g_logo.png" />
@@ -53,12 +53,177 @@
       
     <main class="content on">
       <section class="outer">
+  <article
+  id="data-FreeRTOS任务相关API函数"
+  class="article article-type-data"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  FreeRTOS任务相关API函数
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2023/04/23/FreeRTOS%E4%BB%BB%E5%8A%A1%E7%9B%B8%E5%85%B3API%E5%87%BD%E6%95%B0/" class="article-date">
+  <time datetime="2023-04-23T14:14:31.178Z" itemprop="datePublished">2023-04-23</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/FreeRTOS/">FreeRTOS</a>
+  </div>
   
-    <h1 class="page-type-title">分类</h1>
-    <div class="categories-box">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/C%E8%AF%AD%E8%A8%80/">C语言</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/FreeRTOS/">FreeRTOS</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/MCU/">MCU</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/RISC-V/">RISC-V</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/git/">git</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%8D%8F%E8%AE%AE/">协议</a><span class="category-list-count">1</span></li></ul>
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">6</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">1 分钟</span>
+        </span>
+    </span>
+</div>
+ 
     </div>
+      
+
+
+
   
+    <div class="article-entry" itemprop="articleBody">
+       
+  <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="5391ca7a41a808c46740662cdbcb4a2388db8a8cccf2aecead3d7f75b4865e75">1b693c4938223286468132b2f7068bf6843f685a75b91ea775f5232a30882919450639d23b5e802a83ab45544499b2ba22e018ce52c82ca81d38a369638b53ba561927150ee66883d30d8c3e03859c1aa1d524520068d8456494c2b9447f2774b6f316c73849a966d4fbf4918b21f0760bed8e819dbc34b7c3b44db77dbef2f5e91f204b63845de69344c95ecc6ebe2ca479590580acf608b989d4d6e9ebd5bd44fbd158016d00848ffacd9d0c24ee18c9a6720e3e6dd50d24fc4e1681668afce25865869262fb000834165a4a7fd952d4ff69218697c2e735250193da0acc02eaa6a027b331e73cbc0f9f6ef4b1e4c2d5844d29ce10b1c36687477d02ba38ae05ac79ed9fc69ad796d181b87b1a8b586df1968c9dac750a6cf3664e76c90c995a882a950b8d57d546b1bd4e204a7c79703cfbec81788d651eeda61ff621248091848a9489d7c9965c76c425ffa5da4289206b1ea09f4fe3af1101294f5a748ba0635c8a116ce6d78bc41126ef5061117bd4f62c0a441f098ff66dcbe11426d5bf9031eac1d985c806c235b100dfc1ed896956a8d5afe29e4296876d2656ee13e27cdd2fcb31fa7458362df7d73a74a69110625b0f3a99afa974b48d6edd674ffabd11a72dddd8cda06e37a29c9e133e8b81159d2e03dfa4ea7899a70e04cb591cd10954b5a9d2f075c6d40434c722b1363c8af2b0344b9343f62e0ef5e23b884898e88d8e14d3aa16a81f537ebe04d5ae2e51b187d77bf232cdea14288ab890afbfc345ea19da04e4560fa208f4c71546516af4a4ca4ee597d1d6bf268b6eec8aa0a57694e75524b4cc2e13ae4c0df5d8cbecf296dbf1d17344efc903c06e4dc878b50ca43a05bc39c92726eae87a831bb4a135c38790fd759fa6ae895e0b460316ad36a34bc76d532f885bc278fcf76f40a63f8ae16389216346b16c15105e142b569e116e5967cdcbd0822ab95b01dcfe70958d869d7ae220aef03e0bca3de312063407a4245d43f8d0942c18e8d58a667d02f823b0baf3291106157cc20a778da552bf5fb0ad7f55a5682bb2d2805a950104b75345cfdf705e8a62ec7cdb72bdbfb455d5f65c37343a2f6b1d2af461180f95684a546cab5469167c86f03ce4dd9470c107ad37c4421a226e2d6e35512bcbd5c40f5182164423ba0e66b8a28582fb4880e49801f8e80f78ccd9ffa45ae6bc6ae7708fe936befdc360a94dd66d8492555439f2845f00194160a4a3376f4b6e7cf914cb17df311d2844c394884a03b25c0518a1b178ab9ef073218e9f102b3eb09161ac1d3c7f4b3d5b9a6a4a31315255901217bdca584c5cf6f421a5ef25fa7930eb72515ff105d68823ff46f9483367490d836f27ce19db1b69262e4fc2076909a20ac6f3d4c79b9c0b93d32474f5010dc1d4a0d73c6592b855f7b4d1fc119542b0acc89a615bfd3156b3cab3c6b96946ec62e18e06f3383368ab59f75835722b0f694bff9cdc00d723738520a59f0895428363855b4d0d7ad9ff344e1f669d2b671528dad7951e5f28687793ce1f2c5fa438e43631558a975477ab7019fb66cf8906bb97ad582baa75d28834c2bf539ce1df48607d2f23c60cfeb0059581eb2f0faf36448d532f1484c2b81b047a062e61a012bdc6b8a5a5d8384ca9e2d73bd94a19b3c3ce55a2a624b768cf0c0b929cf3b129f162bfb430e30133e5ba4d5617f915d8a2631bc8e7f7b458d364f344c92054e41549c4a507a3dbcae09a999fae3ccd027bea4d0ff62199fde23d6b9741ea729d92e7a7d64e2f9b52</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css"> 
+      <!-- reward -->
+      
+      <div id="reword-out">
+        <div id="reward-btn">
+          打赏
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://longlee1214.github.io/2023/04/23/FreeRTOS%E4%BB%BB%E5%8A%A1%E7%9B%B8%E5%85%B3API%E5%87%BD%E6%95%B0/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/FreeRTOS/" rel="tag">FreeRTOS</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+      <a href="/2023/04/23/Nuclei-N%E7%BA%A7%E5%88%AB%E6%8C%87%E4%BB%A4%E6%9E%B6%E6%9E%84%E6%89%8B%E5%86%8C/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            Nuclei_N级别架构手册
+          
+        </div>
+      </a>
+    
+    
+      <a href="/2023/04/23/FreeRTOS/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">FreeRTOS</div>
+      </a>
+    
+  </nav>
+
+  
+   
+  
+    
+</article>
+
 </section>
       <footer class="footer">
   <div class="outer">
@@ -199,6 +364,22 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
 
 <script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
 <link
